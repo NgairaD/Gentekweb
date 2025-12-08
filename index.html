@@ -718,7 +718,7 @@
                     </ul>
                     <!--a href="#" class="text-cyber-purple font-medium inline-flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
+                    </a-->
                 </div>
                 
                 <!-- Service 3 -->
@@ -741,7 +741,7 @@
                     </ul>
                     <!--a href="#" class="text-cyber-blue font-medium inline-flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
+                    </a-->
                 </div>
                 
                 <!-- Service 4 -->
@@ -764,7 +764,7 @@
                     </ul>
                     <!--a href="#" class="text-cyber-purple font-medium inline-flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
+                    </a-->
                 </div>
                 
                 <!-- Service 5 -->
@@ -787,7 +787,7 @@
                     </ul>
                     <!--a href="#" class="text-cyber-blue font-medium inline-flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
+                    </a-->
                 </div>
                 
                 <!-- Service 6 -->
@@ -810,7 +810,7 @@
                     </ul>
                     <!--a href="#" class="text-cyber-purple font-medium inline-flex items-center">
                         Learn More <i class="fas fa-arrow-right ml-2"></i>
-                    </a>
+                    </a-->
                 </div>
             </div>
         </div>
@@ -887,7 +887,7 @@
                         </div>
                         <!--a href="#" class="text-cyber-blue font-medium inline-flex items-center">
                             View Case Study <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
+                        </a-->
                     </div>
                 </div>
                 
@@ -933,9 +933,9 @@
             </div>
             
             <div class="text-center mt-12">
-                <a href="#" class="inline-flex items-center px-6 py-3 border border-cyber-blue text-cyber-blue rounded-lg font-medium hover:bg-cyber-blue hover:bg-opacity-10 transition">
+                <!--a href="#" class="inline-flex items-center px-6 py-3 border border-cyber-blue text-cyber-blue rounded-lg font-medium hover:bg-cyber-blue hover:bg-opacity-10 transition">
                     View All Projects <i class="fas fa-arrow-right ml-2"></i>
-                </a>
+                </a-->
             </div>
         </div>
     </section>
@@ -1234,9 +1234,9 @@
             
             <!-- View More Button -->
             <div class="text-center mt-12">
-                <a href="#" class="inline-block bg-cyber-blue text-gray-900 px-8 py-3 rounded-lg font-bold hover:bg-opacity-90 transition">
+                <!--a href="#" class="inline-block bg-cyber-blue text-gray-900 px-8 py-3 rounded-lg font-bold hover:bg-opacity-90 transition">
                     View All Articles <i class="fas fa-chevron-down ml-2"></i>
-                </a>
+                </a-->
             </div>
         </div>
     </section>
@@ -1432,13 +1432,13 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Theme Toggle
-            const themeToggle = document.getElementById('theme-toggle');
+            const themeToggle = document.getElementById('toggle-theme');
             const html = document.documentElement;
             const savedTheme = localStorage.getItem('theme') || 'light';
         
             html.classList.add(savedTheme);
             themeToggle.addEventListener('click', () => {
-                html.classList.toggle('dark');
+               html.classList.toggle('dark');
                 localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
             });
         
